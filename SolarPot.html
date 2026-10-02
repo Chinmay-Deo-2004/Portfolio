@@ -1,0 +1,281 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>DL-based Solar Potential Estimation | Chinmay Deo</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="top">
+
+        <div class="wrap top-row">
+
+            <a class="brand" href="index.html">
+                CD<i>.</i>
+            </a>
+
+            <div class="socials">
+<a href="https://www.linkedin.com/in/chinmay-deo-81880b24b/"
+   aria-label="LinkedIn"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="https://github.com/Chinmay-Deo-2004"
+   aria-label="GitHub"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://orcid.org/0009-0005-6938-9688"
+   aria-label="ORCID"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fa-brands fa-orcid"></i>
+</a>
+
+<a href="mailto:chinmay.deo@telwise-research.com"
+   aria-label="Email">
+    <i class="fa-solid fa-envelope"></i>
+</a>
+
+                <button
+                    class="theme"
+                    data-theme-toggle
+                    aria-label="Toggle colour theme"
+                >
+                    ◐
+                </button>
+            </div>
+
+        </div>
+
+        <nav class="wrap nav">
+            <a href="index.html">Bio</a>
+            <a aria-current="page" href="research.html">
+                Research
+            </a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="leadership.html">Leadership</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="awards.html">Awards</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main publication content -->
+    <main>
+
+        <!-- Publication heading -->
+        <section class="page-hero">
+
+            <p class="eyebrow">
+                Research publication
+            </p>
+
+            <h1>
+                DL-based Solar Potential Estimation for Satellite Imagery
+            </h1>
+
+            <p>
+                Chinmay Deo, Manjeet Singh ·
+                INSPECT · 2025
+            </p>
+
+        </section>
+
+
+        <!-- Publication details -->
+        <section class="wrap publication-page">
+
+            <!-- Back navigation -->
+            <a
+                class="publication-back"
+                href="research.html"
+            >
+                ← Back to research archive
+            </a>
+
+
+            <!-- Paper information -->
+            <div class="publication-meta">
+
+                <p class="eyebrow">
+                    Publication details
+                </p>
+
+                <h2>
+                   Comparative Analysis of U-Net and U-Net++ for Rooftop Segmentation in Solar Potential Estimation
+                </h2>
+
+                <p class="publication-authors">
+                    Chinmay Deo, Manjeet Singh
+                </p>
+
+                <p class="publication-venue">
+                    <em>INSPECT</em>
+                    · 2025
+                </p>
+
+                <div class="publication-status">
+                    <span class="status-badge">
+                        Published
+                    </span>
+                </div>
+
+            </div>
+
+
+            <!-- Paper and code links -->
+            <div class="publication-actions">
+
+                <a
+                    class="cta"
+                    href="https://ieeexplore.ieee.org/document/11350341"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Paper ↗
+                </a>
+
+                <a
+                    class="publication-code"
+                    href="https://github.com/Chinmay-Deo-2004/DL_Based_Solar_Potential_Estimation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Source Code ↗
+                </a>
+
+            </div>
+
+
+            <!-- Publication cover -->
+            <section class="publication-cover-section">
+
+                <p class="eyebrow">
+                    
+                </p>
+
+                <figure class="publication-cover">
+                    <img
+                        src="images/solarpot_cover.png"
+                        data-fallback="images/placeholder.svg"
+                        alt="Cover image for the research article"
+                    >
+                </figure>
+
+            </section>
+
+
+            <!-- Abstract -->
+            <section class="publication-abstract">
+
+                <p class="eyebrow">
+                    Research summary
+                </p>
+
+                <h2>Abstract</h2>
+
+                <p>
+                    This paper presents a complete pipeline for estimating rooftop solar potential from high-resolution satellite imagery using deep learning and irradiance modeling. U-Net and U-Net++ architectures are implemented for building footprint segmentation, trained on the Massachusetts Buildings Dataset and evaluated using standard segmentation metrics.
+
+While U-Net++ achieves slightly higher test-set scores (e.g., Dice and IoU), U-Net demonstrates superior generalization on unseen urban imagery—detecting more usable, fragmented rooftops and yielding significantly higher solar energy estimates. This highlights the importance of domain-specific evaluation over purely pixel-level metrics.
+
+The final output is a georeferenced rooftop-level solar potential heatmap, generated using the pvlib library. The U-Net model is deployed via a lightweight, browser-based interface using Streamlit, enabling non-expert users to upload satellite imagery and obtain solar predictions without GIS tools.
+
+This work demonstrates the feasibility of integrating deep learning, geospatial processing, and solar modeling into a scalable, accessible framework for urban energy planning and smart grid deployment.
+                </p>
+
+            </section>
+
+
+            <!-- Publication status and metadata -->
+            <section class="publication-details">
+
+                <p class="eyebrow">
+                    Publication information
+                </p>
+
+                <h2>Publication type</h2>
+
+                <div class="publication-detail-list">
+
+                    <div class="publication-detail">
+                        <span>Publication status</span>
+                        <strong>Published</strong>
+                    </div>
+
+                    <div class="publication-detail">
+                        <span>Publication type</span>
+                        <strong>Conference Paper</strong>
+                    </div>
+
+                    <div class="publication-detail">
+                        <span>Year</span>
+                        <strong>2025</strong>
+                    </div>
+
+                    <div class="publication-detail">
+                        <span>Venue</span>
+                        <strong>INSPECT 2025</strong>
+                    </div>
+
+                    <div class="publication-detail">
+                        <span>DOI</span>
+                        <strong>
+                            <a href="https://ieeexplore.ieee.org/document/11350341">
+                                10.1109/INSPECT67393.2025.11350341 ↗
+                            </a>
+                        </strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Return to archive -->
+            <div class="publication-footer">
+
+                <a href="research.html" class="cta">
+                    ← Back to all research
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="wrap footer">
+        © <span data-year></span> Chinmay Deo
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
